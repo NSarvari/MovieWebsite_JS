@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Website</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/lightslider.css">
+    <!--js-link-->
+    <script src="../js/JQuery3.3.1.js"></script>
+    <script src="../js/lightslider.js"></script>
     <!---fav-icon--->
-    <link rel="shortcut icon" href="../images/favi.png">
+    <link rel="shortcut icon" href="../img/">
     <!--using FontAwesome-->
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
@@ -16,12 +20,12 @@
     <nav>
         <!--logo-->
         <a href="#" class="logo">
-            <img src="../images/logo.png"/>
+            <img src="../img/logo.png"/>
         </a>
         <!--menu-->
         <ul class="menu">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Moives</a></li>
+            <li><a href="#">Movies</a></li>
             <li><a href="#">TvShows</a></li>
             <li><a href="#">Hollywood</a></li>
             <li><a href="#">Horror</a></li>
@@ -33,5 +37,183 @@
             <i class="fas fa-search"></i>
         </div>
     </nav>
+    <section id="main">
+        <!--showcase-->
+        <!--heading-->
+        <h1 class="showcase-heading">Showcase</h1>
+
+        <ul id="autoWidth" class="cs-hidden">
+            <!--box-1-->
+            <li class="item-a">
+                <!--showcase-box-->
+                <div class="showcase-box">
+                    <img src="../img/looper.jpg">
+                </div>
+                    </li>
+            <!--box-2-->
+            <li class="item-b">
+                <!--showcase-box-->
+                <div class="showcase-box">
+                    <img src="../img/aladin.jpg">
+                </div>
+                    </li>
+            <!--box-3-->
+            <li class="item-c">
+                <!--showcase-box-->
+                <div class="showcase-box">
+                    <img src="../img/avengers.jpg">
+                </div>
+                    </li>
+            <!--box-4-->
+            <li class="item-d">
+                <!--showcase-box-->
+                <div class="showcase-box">
+                    <img src="../img/badBoys.jpg">
+                </div>
+                    </li>
+            <!--box-5-->
+            <li class="item-d">
+                <!--showcase-box-->
+                <div class="showcase-box">
+                    <img src="../img/godzilla.jpg">
+                </div>
+                    </li>
+          </ul>
+    </section>
+    <!--latest-movies-->
+    <section id="latest">
+        <h2 class="latest-heading">Latest Movies</h2>
+        <!--slider-->
+        <ul id="autoWidth2" class="cs-hidden">
+            <!--slider-box-1-->
+            <li class="item-a">
+                <div class="latest-box">
+                    <!--img-->
+                    <div class="latest-b-img">
+                        <img src="../img/prom.jpg">
+                    </div>
+                    <!--text-->
+                    <div class="latest-b-text">
+                        <strong>Prom 2020</strong>
+                        <p>Comedy/Musical Movie</p>
+                    </div>
+                </div>
+            </li>
+            <!--slider-box-2-->
+            <li class="item-b">
+                <div class="latest-box">
+                    <!--img-->
+                    <div class="latest-b-img">
+                        <img src="../img/anti-man.jpg">
+                    </div>
+                    <!--text-->
+                    <div class="latest-b-text">
+                        <strong>Anti-Man 2020</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <!--slider-box-3-->
+            <li class="item-c">
+                <div class="latest-box">
+                    <!--img-->
+                    <div class="latest-b-img">
+                        <img src="../img/assasin.jpg">
+                    </div>
+                    <!--text-->
+                    <div class="latest-b-text">
+                        <strong>Action 2020</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <!--slider-box-4-->
+            <li class="item-d">
+                <div class="latest-box">
+                    <!--img-->
+                    <div class="latest-b-img">
+                        <img src="../img/avatar.jpg">
+                    </div>
+                    <!--text-->
+                    <div class="latest-b-text">
+                        <strong>Avatar 2020</strong>
+                        <p>Fantasy/Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <!--slider-box-5-->
+            <li class="item-e">
+                <div class="latest-box">
+                    <!--img-->
+                    <div class="latest-b-img">
+                        <img src="../img/dumbo.jfif">
+                    </div>
+                    <!--text-->
+                    <div class="latest-b-text">
+                        <strong>Dumbo 2019</strong>
+                        <p>Animation Movie</p>
+                    </div>
+                </div>
+            </li>
+            <!--slider-box-6-->
+            <li class="item-f">
+                <div class="latest-box">
+                    <!--img-->
+                    <div class="latest-b-img">
+                        <img src="../img/the-dry-australian-movie-poster-md.jpg">
+                    </div>
+                    <!--text-->
+                    <div class="latest-b-text">
+                        <strong>The Dry 2021</strong>
+                        <p>Drama/Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <!--slider-box-7-->
+            <li class="item-g">
+                <div class="latest-box">
+                    <!--img-->
+                    <div class="latest-b-img">
+                        <img src="../img/tom-and-jerry-movie-poster-md.jpg">
+                    </div>
+                    <!--text-->
+                    <div class="latest-b-text">
+                        <strong>Tom And Jerrt 2021</strong>
+                        <p>Animation Movie</p>
+                    </div>
+                </div>
+            </li>
+            <!--slider-box-8-->
+            <li class="item-d">
+                <div class="latest-box">
+                    <!--img-->
+                    <div class="latest-b-img">
+                        <img src="../img/cf25a3aa53ec6c5a23c5a6af7bd3c9c2.jpg">
+                    </div>
+                    <!--text-->
+                    <div class="latest-b-text">
+                        <strong>Black Widow 2021</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+          </ul>
+    </section>
+    <!--movies-->
+    <div class="movies-heading">
+        <h1>Movies</h1>
+    </div>
+    <!--slider-script-->
+    <script>
+          $(document).ready(function() {
+    $('#autoWidth,#autoWidth2').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth,#autoWidth2').removeClass('cS-hidden');
+        } 
+    });  
+  });
+    </script>
 </body>
 </html>
